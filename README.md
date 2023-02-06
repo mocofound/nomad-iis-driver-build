@@ -2,7 +2,7 @@
 This repo contains code for building and installing the nomad-iis-driver plugin for HashiCorp Nomad.  The [Nomad IIS Task Driver](https://github.com/Roblox/nomad-driver-iis) was created by Roblox.
 
 ## Files
-* ***build-nomad-driver-iis.ps1*** - uses chocolatey, golang, and make to build the win_iis.exe
+* ***build-nomad-driver-iis.ps1*** - Uses chocolatey, golang, and make to build win_iis.exe.
 
 * ***install-nomad-windows-powershell.ps1*** - Uses sc.exe to create windows services for Nomad and Consul.  Win_iis.exe is placed into Nomad's plugin directory.  Nomad can now schedule jobs to this client.
 
