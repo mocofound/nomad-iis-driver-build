@@ -18,3 +18,6 @@ data "aws_ami" "windows-2019" {
     values = ["Windows_Server-2019-English-Full-Base*"]
   }
 ```
+
+## Screenshot
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/9669770/217112549-ccbb5cd0-61d1-466d-9f61-7a9f1119bfb6.png">
